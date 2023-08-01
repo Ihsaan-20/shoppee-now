@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Shoppee Now</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Custom css -->
+  <link rel="stylesheet" href="style.css">
+
+    <!-- owl carousel -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- isotope -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header id="header">
+    <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+        <p class="font-baloo font-size-12 text-black-50 m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, repellendus!</p>
+        <div class="font-rale font-size-14">
+            <a href="#" class="px-3 border-right border-left text-dark">Login</a>
+            <a href="#" class="px-3 border-right text-dark">Wishlist (0)</a>
+        </div>
+    </div>
+    <!-- Primary Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand font-baloo" href="index.html">Shoppee Now</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto font-rubik mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products <i class="fas fa-chevron-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Category <i class="fas fa-chevron-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Comming Soon</a>
+              </li>
+            </ul>
+            <form action="#" class="font-size-14 font-rale">
+                <a href="#" class="py-2 rounded-pill color-primary-bg">
+                    <span class="font-size-16 px-2 text-light"><i class="fas fa-shopping-cart"></i></span>
+                    <span class="px-3 py-2 rounded-pill tex-dark bg-light text-dark">0</span>
+                </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Primary Navbar -->
+  </header>
+
+  <main id="main-section">
+
+    <!-- cart -->
+    <section id="cart" class="py-3">
+        <div class="container">
+            <h5 class="font-baloo font-size-20">Shopping Cart</h5>
+
+            <!-- Shopping cart itmes -->
+            <div class="row">
+                <div class="col-sm-9">
+                    <!-- cart item -->
+                    <div class="row border-top py-3 mt-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/products/1.png" alt="cart item" class="img-fluid" style="height: 120px;">
+                        </div>
+                        <div class="col-sm-8">
+                            <h5 class="font-baloo font-size-20">Samsung Galaxy 10</h5>
+                            <small>by Samsung</small>
+                            <!-- rating -->
+                            <div class="d-flex">
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <a href="#" class="px-2 font-rale font-size-14">20.500 ratings</a>
+                            </div>
+                            <!-- rating end -->
+
+                            <!-- product quantity -->
+                            <div class="qty d-flex pt-2">
+                                <div class="d-flex font-rale w-25">
+                                    <button class="btn-up border bg-light"><i class="fas fa-angle-up"></i></button>
+                                    <input type="text" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                                    <button class="btn-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                </div>
+                                <button type="submit" class="btn font-baloo text-danger px-3 border-right">Delete</button>
+                                <button type="submit" class="btn font-baloo text-danger px-3 ">Save for later</button>
+                            </div>
+                            <!-- product quantity end -->
+
+                        </div>
+                        
+                        <div class="col-sm-2 text-end">
+                            <div class="font-size-20 text-danger font-baloo">
+                                $<span class="text-danger">152</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row border-top py-3 mt-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/products/2.png" alt="cart item" class="img-fluid" style="height: 120px;">
+                        </div>
+                        <div class="col-sm-8">
+                            <h5 class="font-baloo font-size-20">Redme Lite 7</h5>
+                            <small>by Redmi</small>
+                            <!-- rating -->
+                            <div class="d-flex">
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <a href="#" class="px-2 font-rale font-size-14">20.500 ratings</a>
+                            </div>
+                            <!-- rating end -->
+
+                            <!-- product quantity -->
+                            <div class="qty d-flex pt-2">
+                                <div class="d-flex font-rale w-25">
+                                    <button class="btn-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                                    <input type="text" data-id="pro1" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                                    <button class="btn-down border bg-light" data-id="pro1"><i class="fas fa-angle-down"></i></button>
+                                </div>                                
+                                <button type="submit" class="btn font-baloo text-danger px-3 border-right">Delete</button>
+                                <button type="submit" class="btn font-baloo text-danger px-3 ">Save for later</button>
+                            </div>
+                            <!-- product quantity end -->
+
+                        </div>
+                        
+                        <div class="col-sm-2 text-end">
+                            <div class="font-size-20 text-danger font-baloo">
+                                $<span class="text-danger">145</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cart item end -->
+                </div>
+                
+                <!-- Sub total -->
+                <div class="col-sm-3">
+                    <div class="sub-total text-center mt-2 border">
+                        <h6 class="text-success font-size-12 font-rale py-3">
+                            <i class="fas fa-check"></i> Your order is eligible for  FREE Delivery
+                        </h6>
+                        <div class="border-top py-4">
+                            <h5 class="font-baloo font-size-20">
+                                Subtotal (2 item):<span class="text-danger">$<span class="danger" id="deal-price">297.00</span></span>
+                            </h5>
+                            <button type="submit" class="btn btn-warning mt-3">Proceed to buy</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sub total end -->
+            </div>
+            <!-- Shopping cart itmes end -->
+        </div>
+
+    </section>
+    <!-- Shopping cart item end -->
+
+    <!-- New Phones -->
+    <section id="new-phones">
+        <div class="container py-5">
+            <h4 class="font-rubik font-size-20">New Phones</h4>
+            <hr>
+            <!-- owl carousel -->
+            <div class="owl-carousel owl-theme">
+                <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assets/products/1.png" alt="product" class="img-fluid"></a>
+                        <div class="text-center font-rale">
+                            <h6>Samsung Galaxy 10</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star-half"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$152</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assets/products/2.png" alt="product" class="img-fluid"></a>
+                        <div class="text-center font-rale">
+                            <h6>Redme Note 10</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star-half"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$140</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assets/products/3.png" alt="product" class="img-fluid"></a>
+                        <div class="text-center font-rale">
+                            <h6>Redme Note 8</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star-half"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$130</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item py-2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./assets/products/6.png" alt="product" class="img-fluid"></a>
+                        <div class="text-center font-rale">
+                            <h6>Redme Lite 6</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star-half"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$130</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- owl carousel -->
+
+        </div>
+    </section>
+    <!-- New Phones end -->
+
+
+  </main>
+
+  <footer id="footer" class="bg-dark text-white pt-5 pb-1">
+    <div class="container">
+        <div class="row pb-3">
+            <div class="col-lg-4 col-12">
+                <h4 class="font-rubik font-size-20">Shoppee Now</h4>
+                <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quis quaerat dolor blanditiis corporis enim esse, autem nostrum, quos odio molestias asperiores, doloremque quisquam tempore aspernatur quidem sed debitis architecto. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, suscipit!</p>
+            </div>
+            <div class="col-lg-4 col-12">
+                <h4 class="font-rubik font-size-20">Newslatter</h4>
+                <form action="" class="d-flex flex-row gap-2">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Email..">
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary mb-2" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Information</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="#" class="font-rle font-size-14 text-white-50 pb-1">About Us</a>
+                    <a href="#" class="font-rle font-size-14 text-white-50 pb-1">Delivery Information</a>
+                    <a href="#" class="font-rle font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                    <a href="#" class="font-rle font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Account</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="#" class="font-rle font-size-14 text-white-50 pb-1">My Account</a>
+                    <a href="#" class="font-rle font-size-14 text-white-50 pb-1">Order History </a>
+                    <a href="#" class="font-rle font-size-14 text-white-50 pb-1">Wish List</a>
+                    <a href="#" class="font-rle font-size-14 text-white-50 pb-1">Newslatters</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 d-flex flex-row flex-wrap justify-content-between">
+                <p class="text-white-50 m-0 p-0">Copyright © 2023. All Rights Reserved.</p>
+                <p class="text-white-50 m-0 p-0">Developed by &hearts; <a href="https://www.fiverr.com/ihsaangraphics?up_rollout=true" class="text-white">Ihsaan Chandio</a></p>
+            </div>
+        </div>
+    </div>
+   
+  </footer>
+
+
+
+    <!-- custom js -->
+    <script src="index.js"></script>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
